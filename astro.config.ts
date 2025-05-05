@@ -34,7 +34,7 @@ const imageConfig = imageHostURL
   : {}
 
 export default defineConfig({
-  site: 'https://new-astro.ak5987659.workers.dev/',
+  site: 'https://new-astro-93g.pages.dev/',
   base: '/',
   trailingSlash: 'always',
 

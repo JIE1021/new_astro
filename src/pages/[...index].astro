@@ -18,13 +18,13 @@ export async function getStaticPaths() {
     props: { lang: defaultLocale },
   })
 
-  // More locales
-  moreLocales.forEach((lang: string) => {
+  // More locales (use for...of per lint rule)
+  for (const lang of moreLocales) {
     paths.push({
       params: { index: `${lang}/` },
       props: { lang },
     })
-  })
+  }
 
   return paths
 }
@@ -34,6 +34,7 @@ const { lang } = Astro.props
 const pinnedPosts = await getPinnedPosts(lang)
 const postsByYear = await getPostsByYear(lang)
 ---
+
 <Layout>
   <!-- Pinned Posts -->
   {pinnedPosts.length > 0 && (

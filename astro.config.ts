@@ -16,6 +16,8 @@ import { remarkAdmonitions } from './src/plugins/remark-admonitions.mjs'
 import { remarkGithubCard } from './src/plugins/remark-github-card.mjs'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 
+import cloudflare from '@astrojs/cloudflare';
+
 const url = themeConfig.site.url
 const locale = themeConfig.global.locale
 const linkPrefetch = themeConfig.preload.linkPrefetch
@@ -35,11 +37,14 @@ export default defineConfig({
   site: url,
   base: '/',
   trailingSlash: 'always',
+
   prefetch: {
     prefetchAll: true,
     defaultStrategy: linkPrefetch,
   },
+
   ...imageConfig,
+
   i18n: {
     locales: Object.entries(langMap).map(([path, codes]) => ({
       path,
@@ -47,6 +52,7 @@ export default defineConfig({
     })),
     defaultLocale: locale,
   },
+
   integrations: [
     UnoCSS({
       injectReset: true,
@@ -60,6 +66,7 @@ export default defineConfig({
     sitemap(),
     robotsTxt(),
   ],
+
   markdown: {
     remarkPlugins: [
       remarkDirective,
@@ -89,7 +96,10 @@ export default defineConfig({
       },
     },
   },
+
   devToolbar: {
     enabled: false,
   },
+
+  adapter: cloudflare(),
 })

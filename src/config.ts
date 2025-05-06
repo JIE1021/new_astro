@@ -24,7 +24,7 @@ export const themeConfig: ThemeConfig = {
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   color: {
     // default theme mode
-    mode: 'light', // light, dark, auto
+    mode: 'dark', // light, dark, auto
     light: {
       // primary color
       // used for title, hover, etc
@@ -53,10 +53,10 @@ export const themeConfig: ThemeConfig = {
   // GLOBAL SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   global: {
     // default language
-    locale: 'zh', // zh, zh-tw, ja, en, es, ru
+    locale: 'zh-tw', // zh-tw,en
     // more languages
     // not fill in the locale code above again
-    moreLocales: ['zh-tw', 'ja', 'en', 'es', 'ru'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
+    moreLocales: ['en'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts
@@ -71,7 +71,7 @@ export const themeConfig: ThemeConfig = {
   // COMMENT SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   comment: {
     // enable comment system
-    enabled: true, // true, false
+    enabled: false, // true, false
     // waline comment system
     // https://waline.js.org/en/
     waline: {

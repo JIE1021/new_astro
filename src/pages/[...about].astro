@@ -17,13 +17,13 @@ export async function getStaticPaths() {
     props: { lang: defaultLocale },
   })
 
-// More locales (refactored to for...of to satisfy lint rule)
-for (const lang of moreLocales) {
+  // More locales
+  moreLocales.forEach((lang: string) => {
     paths.push({
       params: { about: `${lang}/about/` },
       props: { lang },
     })
-  }
+  })
 
   return paths
 }

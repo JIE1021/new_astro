@@ -13,7 +13,6 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.5.2",
     "@astrojs/mdx": "^4.2.6",
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/rss": "^4.0.11",
@@ -53,8 +52,7 @@
     "sharp": "^0.34.1",
     "typescript": "~5.8.3",
     "unocss": "66.1.0",
-    "unocss-preset-theme": "^0.14.1",
-    "wrangler": "^4.14.1"
+    "unocss-preset-theme": "^0.14.1"
   },
   "lint-staged": {
     "*.{js,ts,astro}": "eslint --fix"

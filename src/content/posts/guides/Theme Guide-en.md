@@ -31,7 +31,7 @@ site: {
   // author name
   author: 'radishzz'
   // site url
-  url: 'https://retypeset.radishzz.cc'
+  url: 'https://new-astro-93g.pages.dev/'
   // favicon url
   // recommended formats: svg, png or ico
   favicon: '/icon/favicon.svg' // or https://example.com/favicon.svg

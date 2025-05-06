@@ -14,7 +14,7 @@ export const themeConfig: ThemeConfig = {
     // author name
     author: 'radishzz',
     // site url
-    url: 'https://retypeset.radishzz.cc',
+    url: 'https://new-astro-93g.pages.dev/',
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icon/favicon.svg', // or https://example.com/favicon.svg
@@ -56,7 +56,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'zh-tw', // zh-tw,en
     // more languages
     // not fill in the locale code above again
-    moreLocales: ['en'], // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru']
+    moreLocales: ['en'], // ['zh-tw', 'en']
     // font styles for post text
     fontStyle: 'sans', // sans, serif
     // date format for posts
@@ -142,11 +142,11 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/radishzzz/astro-theme-retypeset',
+        url: 'https://github.com/JIE1021',
       },
       {
-        name: 'X',
-        url: 'https://x.com/radishzz_',
+        name: 'Instagram',
+        url: 'https://www.instagram.com/yin_j1021',
       },
       // {
       //   name: 'Email',

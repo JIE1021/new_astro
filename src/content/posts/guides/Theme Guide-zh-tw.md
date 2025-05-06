@@ -31,7 +31,7 @@ site: {
   // 作者名稱
   author: 'radishzz'
   // 站點地址
-  url: 'https://retypeset.radishzz.cc'
+  url: 'https://new-astro-93g.pages.dev/'
   // 站點圖標
   // 推薦格式: svg, png, ico
   favicon: '/icon/favicon.svg' // 或 https://example.com/favicon.svg

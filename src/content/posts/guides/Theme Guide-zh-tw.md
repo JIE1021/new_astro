@@ -5,7 +5,6 @@ updated: 2025-04-13
 tags:
   - 部落格主題
   - 指南
-pin: 99
 lang: zh-tw
 abbrlink: theme-guide
 draft: true

@@ -8,6 +8,7 @@ tags:
 pin: 99
 lang: zh-tw
 abbrlink: theme-guide
+draft: true
 ---
 
 Retypeset 是一款基於 [Astro](https://astro.build/) 框架的靜態部落格主題，中文名為重新編排。本文為 Retypeset 主題上手指南，主要介紹主題配置與如何創建新文章，來幫助你快速搭建個人部落格。

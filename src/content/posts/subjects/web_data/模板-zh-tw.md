@@ -25,6 +25,6 @@ price = data[0].text
 difference = data[1].text
 percentage = data[3].text
 print(f'股價:{price}')
-print(f'改編多少:{difference}')
+print(f'改變多少:{difference}')
 print(f'改變百分比:{percentage}')
 ```

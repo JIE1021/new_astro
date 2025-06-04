@@ -72,11 +72,13 @@ Retypeset is a static blog theme based on the [Astro](https://astro.build/) fram
    pnpm dev
    ```
 
-3. Open [localhost:4321](http://localhost:4321/) in your browser to see a live preview of your website.
+3. Create a `.env` file and set `APIFLASH_KEY` to your own API key. Without this key the theme won't automatically generate Open Graph images.
 
-4. Refer to the [Theme Guide](https://retypeset.radishzz.cc/en/posts/theme-guide/) to customize your blog and create new articles.
+4. Open [localhost:4321](http://localhost:4321/) in your browser to see a live preview of your website.
 
-5. Refer to the [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/) to deploy your blog to Netlify, Vercel, or other platforms.
+5. Refer to the [Theme Guide](https://retypeset.radishzz.cc/en/posts/theme-guide/) to customize your blog and create new articles.
+
+6. Refer to the [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/) to deploy your blog to Netlify, Vercel, or other platforms.
 
 &emsp;[![Deploy to Netlify](assets/deploy-netlify.svg)](https://app.netlify.com/start)
  [![Deploy to Vercel](assets/deploy-vercel.svg)](https://vercel.com/new)

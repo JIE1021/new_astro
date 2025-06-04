@@ -4,7 +4,7 @@ import { getLocalizedPath } from '@/i18n/path'
 
 // Removes leading and trailing slashes from a path
 export function cleanPath(path: string) {
-  return path.replace(/^\/|\/$/g, '')
+  return path.replace(/^\/+|\/+$/g, '')
 }
 
 // Checks if the current path is the home/post/tag/about page

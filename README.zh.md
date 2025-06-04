@@ -68,11 +68,13 @@ Retypeset 是一款基于 [Astro](https://astro.build/) 框架的静态博客主
    pnpm dev
    ```
 
-3. 在浏览器中打开 [localhost:4321](http://localhost:4321/)，查看网站的实时预览。
+3. 在项目根目录创建 `.env` 文件，设置 `APIFLASH_KEY` 为你的 API key。未设置时将不会自动生成 Open Graph 图片。
 
-4. 参考 [主题上手指南](https://retypeset.radishzz.cc/posts/theme-guide/)，自定义你的博客并创建新文章。
+4. 在浏览器中打开 [localhost:4321](http://localhost:4321/)，查看网站的实时预览。
 
-5. 参考 [Astro 部署指南](https://docs.astro.build/zh-cn/guides/deploy/)，将博客部署至 Netlify、Vercel 等平台。
+5. 参考 [主题上手指南](https://retypeset.radishzz.cc/posts/theme-guide/)，自定义你的博客并创建新文章。
+
+6. 参考 [Astro 部署指南](https://docs.astro.build/zh-cn/guides/deploy/)，将博客部署至 Netlify、Vercel 等平台。
 
 &emsp;[![Deploy to Netlify](assets/deploy-netlify.svg)](https://app.netlify.com/start)
  [![Deploy to Vercel](assets/deploy-vercel.svg)](https://vercel.com/new)
